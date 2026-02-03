@@ -1,7 +1,6 @@
 # GoRag: A Go Library for Retrieval-Augmented Generation (RAG) Development with Multi-Vector Database Support 📜
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/stackloklabs/gorag)](https://goreportcard.com/report/github.com/stackloklabs/gorag)
-[![License](https://img.shields.io/github/license/stackloklabs/gorag)](LICENSE)
+
 
 GoRag provides an intuitive Go interface for developing Retrieval-Augmented Generation (RAG) applications. It supports multiple vector database types, enabling efficient data retrieval for enhanced generation augmentation.
 
@@ -173,17 +172,14 @@ prompt := backend.NewPrompt().
 Example output:
 
 ```
-2024/10/28 15:08:25 Embedding backend LLM: mxbai-embed-large
-2024/10/28 15:08:25 Generation backend: llama3
-2024/10/28 15:08:25 Vector database initialized
-2024/10/28 15:08:26 Embedding generated
-2024/10/28 15:08:26 Vector Document generated
-2024/10/28 15:08:26 Vector embeddings generated
-2024/10/28 15:08:26 Retrieved Document: {doc-5630d3f2-bf61-4e13-8ec9-9e863bc1a962 map[content:Mickey mouse is a real human being]}
-2024/10/28 15:08:34 Retrieval-Augmented Generation influenced output from LLM model: Mickey Mouse is indeed a human!
+2026/01/28 15:08:25 Embedding backend LLM: mxbai-embed-large
+2026/01/28 15:08:25 Generation backend: llama3
+2026/01/28 15:08:25 Vector database initialized
+2026/01/28 15:08:26 Embedding generated
+2026/01/28 15:08:26 Vector Document generated
+2026/01/28 15:08:26 Vector embeddings generated
+2026/01/28 15:08:26 Retrieved Document: {doc-5630d3f2-bf61-4e13-8ec9-9e863bc1a962 map[content:Mickey mouse is a real human being]}
+2026/01/28 15:08:34 Retrieval-Augmented Generation influenced output from LLM model: Mickey Mouse is indeed a human!
 ```
 
-# 📝 Contributing
 
-We welcome contributions! Please submit a pull request or raise an issue if
-you want to see something included or hit a bug.
